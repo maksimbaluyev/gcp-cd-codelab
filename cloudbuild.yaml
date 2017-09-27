@@ -1,5 +1,5 @@
 steps:
-  - name: "gcr.io/cloud-builders/go"
+  - name: "gcr.io/cloud-builders/go"  
     args: ["install", "github.com/maksimbaluyev/gcp-cd-codelab"]
     env: ["PROJECT_ROOT=github.com/maksimbaluyev/gcp-cd-codelab"]
   - name: "gcr.io/cloud-builders/docker"
